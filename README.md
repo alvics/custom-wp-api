@@ -12,11 +12,9 @@
  http://<your domain>/wp-json/api/v1/posts
  ``
  
- #### Returns a single post, page or product
+ #### Returns a single post
  * eg. your domain/wp-json/api/v1/posts/how-to-sell-online
- * eg. your domain>wp-json/api/v1/pages/about-us
- * eg. your domain>/wp-json/api/v1/product/gold-watch
- 
+  
  ``
   http://<your domain>/wp-json/api/v1/posts/<slug-name>
   ``
