@@ -12,7 +12,7 @@
  http://<your domain>/wp-json/api/v1/posts
  ``
  
- #### Returns a single post
+ #### Return a single post only
  * eg. your domain/wp-json/api/v1/posts/how-to-sell-online
   
  ``
