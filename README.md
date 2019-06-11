@@ -1,6 +1,6 @@
 ## Custom WordPress Restful API Plugin
 ### Custom endpoints for posts, pages and products. 
- A cleaner call back which returns the post ID, title, content, name, image thumbnails (small,medium,large) only.
+ A cleaner call back which returns an array of ojbects in JSON with the post ID, title, content, name, image thumbnails (small,medium,large) only.
  
  #### How to use: 
  * eg. your domain/wp-json/api/v1/posts
