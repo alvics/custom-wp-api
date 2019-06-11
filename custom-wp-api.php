@@ -28,7 +28,8 @@ function api_posts() {
 
 	foreach ( $posts as $post ) {
 		$data[ $i ]['id']                          = $post->ID;
-		$data[ $i ]['title']                       = $post->post_title;
+		$data[ $i ]['title']                       = $post->post_excerpt,
+		$data[ $i ]['excerpt']                     = $post->post_title;
 		$data[ $i ]['content']                     = $post->post_content;
 		$data[ $i ]['slug']                        = $post->post_name;
 		$data[ $i ]['featured_image']['thumbnail'] = get_the_post_thumbnail_url( $post->ID, 'thumbnail' );
