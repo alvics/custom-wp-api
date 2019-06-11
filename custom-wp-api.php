@@ -3,7 +3,7 @@
  * Plugin Name: Custom WP API
  * Plugin URI: http://allenpavic.ga
  * Description: Custom endpoints for the WordPress API
- * Version: 1.0
+ * Version: 1.1
  * Author: Allen Pavic
  * Author URI: http://allenpavic.ga
  * Custom end points examples -
@@ -28,7 +28,7 @@ function api_posts() {
 
 	foreach ( $posts as $post ) {
 		$data[ $i ]['id']                          = $post->ID;
-		$data[ $i ]['title']                       = $post->post_excerpt,
+		$data[ $i ]['title']                       = $post->post_excerpt;
 		$data[ $i ]['excerpt']                     = $post->post_title;
 		$data[ $i ]['content']                     = $post->post_content;
 		$data[ $i ]['slug']                        = $post->post_name;
